@@ -10,11 +10,13 @@ PODS:
   - RxRelay (6.5.0):
     - RxSwift (= 6.5.0)
   - RxSwift (6.5.0)
+  - XYZColor (3.0.3)
 
 DEPENDENCIES:
   - RxCocoa
   - RxDataSources
   - RxSwift
+  - XYZColor
 
 SPEC REPOS:
   trunk:
@@ -23,6 +25,7 @@ SPEC REPOS:
     - RxDataSources
     - RxRelay
     - RxSwift
+    - XYZColor
 
 SPEC CHECKSUMS:
   Differentiator: e8497ceab83c1b10ca233716d547b9af21b9344d
@@ -30,7 +33,8 @@ SPEC CHECKSUMS:
   RxDataSources: aa47cc1ed6c500fa0dfecac5c979b723542d79cf
   RxRelay: 1de1523e604c72b6c68feadedd1af3b1b4d0ecbd
   RxSwift: 5710a9e6b17f3c3d6e40d6e559b9fa1e813b2ef8
+  XYZColor: b5ed5d2e6906634c7bcfb81d35ae66c8d7d7cef3
 
-PODFILE CHECKSUM: 81b1b7ab71a383abbe719b45da507a3663c8a515
+PODFILE CHECKSUM: c74c87e194cfb178bf196c3d7febc318d9384ac4
 
 COCOAPODS: 1.11.3
