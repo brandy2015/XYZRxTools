@@ -13,6 +13,7 @@
 		D68AED7228A0EAD5003AE5DA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D68AED7028A0EAD5003AE5DA /* Main.storyboard */; };
 		D68AED7428A0EAD6003AE5DA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D68AED7328A0EAD6003AE5DA /* Assets.xcassets */; };
 		D68AED7728A0EAD6003AE5DA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D68AED7528A0EAD6003AE5DA /* LaunchScreen.storyboard */; };
+		D68AED8028A0EF92003AE5DA /* XYZRxExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D68AED7F28A0EF92003AE5DA /* XYZRxExtension.swift */; };
 		EA648D23C423A92B5D086B6C /* Pods_XYZRxTools.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F04F69D6FDEAB8095EA5A68 /* Pods_XYZRxTools.framework */; };
 /* End PBXBuildFile section */
 
@@ -28,6 +29,7 @@
 		D68AED7328A0EAD6003AE5DA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D68AED7628A0EAD6003AE5DA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D68AED7828A0EAD6003AE5DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D68AED7F28A0EF92003AE5DA /* XYZRxExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XYZRxExtension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,7 +50,6 @@
 				0FD48D83121C77F23F7F251E /* Pods-XYZRxTools.debug.xcconfig */,
 				17C664DF73506DA81EBF77DF /* Pods-XYZRxTools.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -81,6 +82,7 @@
 		D68AED6928A0EAD5003AE5DA /* XYZRxTools */ = {
 			isa = PBXGroup;
 			children = (
+				D68AED7E28A0EF68003AE5DA /* Source */,
 				D68AED6A28A0EAD5003AE5DA /* AppDelegate.swift */,
 				D68AED6C28A0EAD5003AE5DA /* SceneDelegate.swift */,
 				D68AED6E28A0EAD5003AE5DA /* ViewController.swift */,
@@ -90,6 +92,14 @@
 				D68AED7828A0EAD6003AE5DA /* Info.plist */,
 			);
 			path = XYZRxTools;
+			sourceTree = "<group>";
+		};
+		D68AED7E28A0EF68003AE5DA /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				D68AED7F28A0EF92003AE5DA /* XYZRxExtension.swift */,
+			);
+			path = Source;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -210,6 +220,7 @@
 				D68AED6F28A0EAD5003AE5DA /* ViewController.swift in Sources */,
 				D68AED6B28A0EAD5003AE5DA /* AppDelegate.swift in Sources */,
 				D68AED6D28A0EAD5003AE5DA /* SceneDelegate.swift in Sources */,
+				D68AED8028A0EF92003AE5DA /* XYZRxExtension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
