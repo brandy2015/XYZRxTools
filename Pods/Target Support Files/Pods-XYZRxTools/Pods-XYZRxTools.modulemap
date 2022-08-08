@@ -1,0 +1,6 @@
+framework module Pods_XYZRxTools {
+  umbrella header "Pods-XYZRxTools-umbrella.h"
+
+  export *
+  module * { export * }
+}
