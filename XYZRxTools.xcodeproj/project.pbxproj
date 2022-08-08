@@ -14,6 +14,9 @@
 		D68AED7428A0EAD6003AE5DA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D68AED7328A0EAD6003AE5DA /* Assets.xcassets */; };
 		D68AED7728A0EAD6003AE5DA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D68AED7528A0EAD6003AE5DA /* LaunchScreen.storyboard */; };
 		D68AED8028A0EF92003AE5DA /* XYZRxExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D68AED7F28A0EF92003AE5DA /* XYZRxExtension.swift */; };
+		D68AED8228A0F253003AE5DA /* XYZView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D68AED8128A0F252003AE5DA /* XYZView.swift */; };
+		D68AED8428A0F2C3003AE5DA /* XYZ_RxUITextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = D68AED8328A0F2C3003AE5DA /* XYZ_RxUITextField.swift */; };
+		D68AED8628A0F347003AE5DA /* XYZ_RxGesture.swift in Sources */ = {isa = PBXBuildFile; fileRef = D68AED8528A0F347003AE5DA /* XYZ_RxGesture.swift */; };
 		EA648D23C423A92B5D086B6C /* Pods_XYZRxTools.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F04F69D6FDEAB8095EA5A68 /* Pods_XYZRxTools.framework */; };
 /* End PBXBuildFile section */
 
@@ -30,6 +33,9 @@
 		D68AED7628A0EAD6003AE5DA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D68AED7828A0EAD6003AE5DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D68AED7F28A0EF92003AE5DA /* XYZRxExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XYZRxExtension.swift; sourceTree = "<group>"; };
+		D68AED8128A0F252003AE5DA /* XYZView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XYZView.swift; sourceTree = "<group>"; };
+		D68AED8328A0F2C3003AE5DA /* XYZ_RxUITextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XYZ_RxUITextField.swift; sourceTree = "<group>"; };
+		D68AED8528A0F347003AE5DA /* XYZ_RxGesture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XYZ_RxGesture.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +104,9 @@
 			isa = PBXGroup;
 			children = (
 				D68AED7F28A0EF92003AE5DA /* XYZRxExtension.swift */,
+				D68AED8128A0F252003AE5DA /* XYZView.swift */,
+				D68AED8328A0F2C3003AE5DA /* XYZ_RxUITextField.swift */,
+				D68AED8528A0F347003AE5DA /* XYZ_RxGesture.swift */,
 			);
 			path = Source;
 			sourceTree = "<group>";
@@ -218,8 +227,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				D68AED6F28A0EAD5003AE5DA /* ViewController.swift in Sources */,
+				D68AED8228A0F253003AE5DA /* XYZView.swift in Sources */,
 				D68AED6B28A0EAD5003AE5DA /* AppDelegate.swift in Sources */,
+				D68AED8428A0F2C3003AE5DA /* XYZ_RxUITextField.swift in Sources */,
 				D68AED6D28A0EAD5003AE5DA /* SceneDelegate.swift in Sources */,
+				D68AED8628A0F347003AE5DA /* XYZ_RxGesture.swift in Sources */,
 				D68AED8028A0EF92003AE5DA /* XYZRxExtension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

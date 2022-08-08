@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "XYZRxTools"
-  s.version      = "1.0.4"
+  s.version      = "1.0.5"
   s.summary      = "持续升级"
 
   s.description  = <<-DESC
@@ -37,9 +37,15 @@ Pod::Spec.new do |s|
   s.author             = { "Brandy" => "" }
   s.authors            = { "Brandy" => "zhangqianbrandy2012@gmail.com" }
   s.platform     = :ios, "14.0"
-  s.source       = { :git => "https://github.com/brandy2015/XYZRxTools.git", :tag => "1.0.4"}
+  s.source       = { :git => "https://github.com/brandy2015/XYZRxTools.git", :tag => "1.0.5"}
   s.source_files = "XYZRxTools/Source/*"
  
+ 
+    s.dependency 'RxSwift'
+    s.dependency 'RxCocoa'        #点按照片后左右浏览
+    s.dependency 'RxDataSources'         #路径
+    s.dependency 'XYZColor'
+    
  
  
   #  When using multiple platforms
