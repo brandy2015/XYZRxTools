@@ -38,6 +38,4 @@ public extension UIView{
 //        alert.addAction(UIAlertAction(title: "确定", style: .cancel))
 //        self.present(alert, animated: true)
 //    }
-}
-
-
+} 
