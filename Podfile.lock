@@ -1,5 +1,6 @@
 PODS:
   - Differentiator (5.0.0)
+  - MJRefresh (3.7.5)
   - RxCocoa (6.5.0):
     - RxRelay (= 6.5.0)
     - RxSwift (= 6.5.0)
@@ -10,9 +11,10 @@ PODS:
   - RxRelay (6.5.0):
     - RxSwift (= 6.5.0)
   - RxSwift (6.5.0)
-  - XYZColor (3.0.3)
+  - XYZColor (3.0.5)
 
 DEPENDENCIES:
+  - MJRefresh
   - RxCocoa
   - RxDataSources
   - RxSwift
@@ -21,6 +23,7 @@ DEPENDENCIES:
 SPEC REPOS:
   trunk:
     - Differentiator
+    - MJRefresh
     - RxCocoa
     - RxDataSources
     - RxRelay
@@ -29,12 +32,13 @@ SPEC REPOS:
 
 SPEC CHECKSUMS:
   Differentiator: e8497ceab83c1b10ca233716d547b9af21b9344d
+  MJRefresh: fdf5e979eb406a0341468932d1dfc8b7f9fce961
   RxCocoa: 94f817b71c07517321eb4f9ad299112ca8af743b
   RxDataSources: aa47cc1ed6c500fa0dfecac5c979b723542d79cf
   RxRelay: 1de1523e604c72b6c68feadedd1af3b1b4d0ecbd
   RxSwift: 5710a9e6b17f3c3d6e40d6e559b9fa1e813b2ef8
-  XYZColor: b5ed5d2e6906634c7bcfb81d35ae66c8d7d7cef3
+  XYZColor: 874154062d8a5207ee093877644f08404f2570d6
 
-PODFILE CHECKSUM: c74c87e194cfb178bf196c3d7febc318d9384ac4
+PODFILE CHECKSUM: b61fc241bdfb6063cba5c5eb16659ef5f84b24c2
 
-COCOAPODS: 1.11.3
+COCOAPODS: 1.12.1

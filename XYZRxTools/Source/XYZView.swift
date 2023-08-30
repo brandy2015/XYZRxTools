@@ -26,3 +26,17 @@ public extension UIView{
 }
        
         
+//点按别处隐藏键盘
+public extension UIViewController {
+    
+    func hideKeyboardOnTap(disposeBag:DisposeBag) {
+        let tapGesture = UITapGestureRecognizer()
+        view.addGestureRecognizer(tapGesture)
+        
+        tapGesture.rx.event
+            .subscribe(onNext: { [weak self] _ in
+                self?.view.endEditing(true)
+            })
+            .disposed(by:  disposeBag)
+    }
+}

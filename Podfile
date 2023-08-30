@@ -11,4 +11,6 @@ target 'XYZRxTools' do
   pod 'RxDataSources'
   
   pod 'XYZColor'
+  pod 'MJRefresh'
+  
 end

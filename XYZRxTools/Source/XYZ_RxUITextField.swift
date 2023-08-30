@@ -41,6 +41,10 @@ public extension UITextField{
 //import RxSwift
 //
 ////UITextField_RxExtension
+///
+ 
+
+
 public extension UITextField{
 
     func selectedHighlightedSuperView(borderWidth:Double = 2.0,cornerRadius:Double = 10,DefaultborderColor:UIColor = .clear,borderColor:UIColor = .label,disposeBag:DisposeBag)  {
@@ -95,3 +99,43 @@ extension UIView{
 
     }
 } 
+
+public extension UITextField{
+
+    func selectedHighlightedSuperSuperView(BGView:UIView,borderWidth:Double = 2.0,cornerRadius:Double = 10,DefaultborderColor:UIColor = .darkGray,borderColor:UIColor = .white,disposeBag:DisposeBag)  {
+        BGView.AddBorder(borderWidth: borderWidth, borderColor: DefaultborderColor)
+        BGView.CornerRadius(cornerRadius: CGFloat(cornerRadius))
+       
+        self.rx.controlEvent([.editingDidBegin]) //状态可以组合
+            .asObservable()
+            .subscribe(onNext: {   (_) in
+                BGView.AddBorder(borderWidth: borderWidth, borderColor: borderColor)
+            }).disposed(by: disposeBag)
+
+        self.rx.controlEvent(.editingDidEndOnExit).subscribe(onNext: {
+            (_) in
+            BGView.AddBorder(borderWidth: borderWidth, borderColor: DefaultborderColor)
+        }).disposed(by: disposeBag)
+
+        self.rx.controlEvent(.editingDidEnd).subscribe(onNext: {
+            (_) in
+            BGView.AddBorder(borderWidth: borderWidth, borderColor: DefaultborderColor)
+        }).disposed(by: disposeBag)
+    }
+
+}
+
+
+
+public extension UIViewController{
+    
+    func SelectedHighlight(TFs:[UITextField],disposeBag:DisposeBag){
+        TFs.forEach { tf in
+            tf.selectedHighlightedSuperView (disposeBag:  disposeBag)
+        }
+    }
+    
+}
+
+
+ 

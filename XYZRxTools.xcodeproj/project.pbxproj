@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D630D3052A9F7690002E66A7 /* MJRefresh+Rx.swift in Sources */ = {isa = PBXBuildFile; fileRef = D630D3042A9F7690002E66A7 /* MJRefresh+Rx.swift */; };
+		D67F93952907802E000B0C3C /* XYZUIImage_PHPhotoLibrary+Rx.swift in Sources */ = {isa = PBXBuildFile; fileRef = D67F93942907802E000B0C3C /* XYZUIImage_PHPhotoLibrary+Rx.swift */; };
+		D67F939929078CDC000B0C3C /* UIAlert+Rx.swift in Sources */ = {isa = PBXBuildFile; fileRef = D67F939829078CDC000B0C3C /* UIAlert+Rx.swift */; };
 		D68AED6B28A0EAD5003AE5DA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D68AED6A28A0EAD5003AE5DA /* AppDelegate.swift */; };
 		D68AED6D28A0EAD5003AE5DA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D68AED6C28A0EAD5003AE5DA /* SceneDelegate.swift */; };
 		D68AED6F28A0EAD5003AE5DA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D68AED6E28A0EAD5003AE5DA /* ViewController.swift */; };
@@ -26,6 +29,9 @@
 		0FD48D83121C77F23F7F251E /* Pods-XYZRxTools.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XYZRxTools.debug.xcconfig"; path = "Target Support Files/Pods-XYZRxTools/Pods-XYZRxTools.debug.xcconfig"; sourceTree = "<group>"; };
 		17C664DF73506DA81EBF77DF /* Pods-XYZRxTools.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XYZRxTools.release.xcconfig"; path = "Target Support Files/Pods-XYZRxTools/Pods-XYZRxTools.release.xcconfig"; sourceTree = "<group>"; };
 		5F04F69D6FDEAB8095EA5A68 /* Pods_XYZRxTools.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XYZRxTools.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D630D3042A9F7690002E66A7 /* MJRefresh+Rx.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "MJRefresh+Rx.swift"; sourceTree = "<group>"; };
+		D67F93942907802E000B0C3C /* XYZUIImage_PHPhotoLibrary+Rx.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "XYZUIImage_PHPhotoLibrary+Rx.swift"; sourceTree = "<group>"; };
+		D67F939829078CDC000B0C3C /* UIAlert+Rx.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIAlert+Rx.swift"; sourceTree = "<group>"; };
 		D68AED6728A0EAD5003AE5DA /* XYZRxTools.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XYZRxTools.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D68AED6A28A0EAD5003AE5DA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D68AED6C28A0EAD5003AE5DA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -112,7 +118,10 @@
 				D68AED8328A0F2C3003AE5DA /* XYZ_RxUITextField.swift */,
 				D68AED8528A0F347003AE5DA /* XYZ_RxGesture.swift */,
 				D6D9BA51290671A2003B3083 /* XYZUIImage_RxXYZ.swift */,
+				D67F93942907802E000B0C3C /* XYZUIImage_PHPhotoLibrary+Rx.swift */,
 				D6D9BA5329069D36003B3083 /* XYZ_RxFilter.swift */,
+				D67F939829078CDC000B0C3C /* UIAlert+Rx.swift */,
+				D630D3042A9F7690002E66A7 /* MJRefresh+Rx.swift */,
 			);
 			path = Source;
 			sourceTree = "<group>";
@@ -232,12 +241,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D67F93952907802E000B0C3C /* XYZUIImage_PHPhotoLibrary+Rx.swift in Sources */,
 				D68AED6F28A0EAD5003AE5DA /* ViewController.swift in Sources */,
 				D6D9BA5429069D36003B3083 /* XYZ_RxFilter.swift in Sources */,
 				D6D9BA52290671A2003B3083 /* XYZUIImage_RxXYZ.swift in Sources */,
+				D630D3052A9F7690002E66A7 /* MJRefresh+Rx.swift in Sources */,
 				D68AED8228A0F253003AE5DA /* XYZView.swift in Sources */,
 				D68AED6B28A0EAD5003AE5DA /* AppDelegate.swift in Sources */,
 				D68AED8428A0F2C3003AE5DA /* XYZ_RxUITextField.swift in Sources */,
+				D67F939929078CDC000B0C3C /* UIAlert+Rx.swift in Sources */,
 				D68AED6D28A0EAD5003AE5DA /* SceneDelegate.swift in Sources */,
 				D68AED8628A0F347003AE5DA /* XYZ_RxGesture.swift in Sources */,
 				D68AED8028A0EF92003AE5DA /* XYZRxExtension.swift in Sources */,
