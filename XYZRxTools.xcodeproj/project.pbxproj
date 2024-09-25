@@ -20,6 +20,7 @@
 		D68AED8228A0F253003AE5DA /* XYZView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D68AED8128A0F252003AE5DA /* XYZView.swift */; };
 		D68AED8428A0F2C3003AE5DA /* XYZ_RxUITextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = D68AED8328A0F2C3003AE5DA /* XYZ_RxUITextField.swift */; };
 		D68AED8628A0F347003AE5DA /* XYZ_RxGesture.swift in Sources */ = {isa = PBXBuildFile; fileRef = D68AED8528A0F347003AE5DA /* XYZ_RxGesture.swift */; };
+		D6AD57E12CA2D3DB00F1B40A /* XYZImageCompressor.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6AD57E02CA2D3DB00F1B40A /* XYZImageCompressor.swift */; };
 		D6D9BA52290671A2003B3083 /* XYZUIImage_RxXYZ.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6D9BA51290671A2003B3083 /* XYZUIImage_RxXYZ.swift */; };
 		D6D9BA5429069D36003B3083 /* XYZ_RxFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6D9BA5329069D36003B3083 /* XYZ_RxFilter.swift */; };
 		EA648D23C423A92B5D086B6C /* Pods_XYZRxTools.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F04F69D6FDEAB8095EA5A68 /* Pods_XYZRxTools.framework */; };
@@ -44,6 +45,7 @@
 		D68AED8128A0F252003AE5DA /* XYZView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XYZView.swift; sourceTree = "<group>"; };
 		D68AED8328A0F2C3003AE5DA /* XYZ_RxUITextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XYZ_RxUITextField.swift; sourceTree = "<group>"; };
 		D68AED8528A0F347003AE5DA /* XYZ_RxGesture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XYZ_RxGesture.swift; sourceTree = "<group>"; };
+		D6AD57E02CA2D3DB00F1B40A /* XYZImageCompressor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XYZImageCompressor.swift; sourceTree = "<group>"; };
 		D6D9BA51290671A2003B3083 /* XYZUIImage_RxXYZ.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XYZUIImage_RxXYZ.swift; sourceTree = "<group>"; };
 		D6D9BA5329069D36003B3083 /* XYZ_RxFilter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XYZ_RxFilter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -113,6 +115,7 @@
 		D68AED7E28A0EF68003AE5DA /* Source */ = {
 			isa = PBXGroup;
 			children = (
+				D6AD57E02CA2D3DB00F1B40A /* XYZImageCompressor.swift */,
 				D68AED7F28A0EF92003AE5DA /* XYZRxExtension.swift */,
 				D68AED8128A0F252003AE5DA /* XYZView.swift */,
 				D68AED8328A0F2C3003AE5DA /* XYZ_RxUITextField.swift */,
@@ -245,6 +248,7 @@
 				D68AED6F28A0EAD5003AE5DA /* ViewController.swift in Sources */,
 				D6D9BA5429069D36003B3083 /* XYZ_RxFilter.swift in Sources */,
 				D6D9BA52290671A2003B3083 /* XYZUIImage_RxXYZ.swift in Sources */,
+				D6AD57E12CA2D3DB00F1B40A /* XYZImageCompressor.swift in Sources */,
 				D630D3052A9F7690002E66A7 /* MJRefresh+Rx.swift in Sources */,
 				D68AED8228A0F253003AE5DA /* XYZView.swift in Sources */,
 				D68AED6B28A0EAD5003AE5DA /* AppDelegate.swift in Sources */,
