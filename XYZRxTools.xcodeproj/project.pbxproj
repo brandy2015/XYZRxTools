@@ -23,6 +23,7 @@
 		D6AD57E12CA2D3DB00F1B40A /* XYZImageCompressor.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6AD57E02CA2D3DB00F1B40A /* XYZImageCompressor.swift */; };
 		D6D9BA52290671A2003B3083 /* XYZUIImage_RxXYZ.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6D9BA51290671A2003B3083 /* XYZUIImage_RxXYZ.swift */; };
 		D6D9BA5429069D36003B3083 /* XYZ_RxFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6D9BA5329069D36003B3083 /* XYZ_RxFilter.swift */; };
+		D6EE789E2CA540FF00750705 /* XYZTF.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6EE789D2CA540FA00750705 /* XYZTF.swift */; };
 		EA648D23C423A92B5D086B6C /* Pods_XYZRxTools.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F04F69D6FDEAB8095EA5A68 /* Pods_XYZRxTools.framework */; };
 /* End PBXBuildFile section */
 
@@ -48,6 +49,7 @@
 		D6AD57E02CA2D3DB00F1B40A /* XYZImageCompressor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XYZImageCompressor.swift; sourceTree = "<group>"; };
 		D6D9BA51290671A2003B3083 /* XYZUIImage_RxXYZ.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XYZUIImage_RxXYZ.swift; sourceTree = "<group>"; };
 		D6D9BA5329069D36003B3083 /* XYZ_RxFilter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XYZ_RxFilter.swift; sourceTree = "<group>"; };
+		D6EE789D2CA540FA00750705 /* XYZTF.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XYZTF.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +117,7 @@
 		D68AED7E28A0EF68003AE5DA /* Source */ = {
 			isa = PBXGroup;
 			children = (
+				D6EE789D2CA540FA00750705 /* XYZTF.swift */,
 				D6AD57E02CA2D3DB00F1B40A /* XYZImageCompressor.swift */,
 				D68AED7F28A0EF92003AE5DA /* XYZRxExtension.swift */,
 				D68AED8128A0F252003AE5DA /* XYZView.swift */,
@@ -245,6 +248,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D67F93952907802E000B0C3C /* XYZUIImage_PHPhotoLibrary+Rx.swift in Sources */,
+				D6EE789E2CA540FF00750705 /* XYZTF.swift in Sources */,
 				D68AED6F28A0EAD5003AE5DA /* ViewController.swift in Sources */,
 				D6D9BA5429069D36003B3083 /* XYZ_RxFilter.swift in Sources */,
 				D6D9BA52290671A2003B3083 /* XYZUIImage_RxXYZ.swift in Sources */,
