@@ -8,8 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		D630D3052A9F7690002E66A7 /* MJRefresh+Rx.swift in Sources */ = {isa = PBXBuildFile; fileRef = D630D3042A9F7690002E66A7 /* MJRefresh+Rx.swift */; };
-		D6799DEF2CF6D34A00FFA659 /* RealmObserver.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6799DED2CF6D34A00FFA659 /* RealmObserver.swift */; };
-		D6799DF02CF6D34A00FFA659 /* RxRealm.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6799DEC2CF6D34A00FFA659 /* RxRealm.swift */; };
 		D67F93952907802E000B0C3C /* XYZUIImage_PHPhotoLibrary+Rx.swift in Sources */ = {isa = PBXBuildFile; fileRef = D67F93942907802E000B0C3C /* XYZUIImage_PHPhotoLibrary+Rx.swift */; };
 		D67F939929078CDC000B0C3C /* UIAlert+Rx.swift in Sources */ = {isa = PBXBuildFile; fileRef = D67F939829078CDC000B0C3C /* UIAlert+Rx.swift */; };
 		D68AED6B28A0EAD5003AE5DA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D68AED6A28A0EAD5003AE5DA /* AppDelegate.swift */; };
@@ -34,8 +32,6 @@
 		17C664DF73506DA81EBF77DF /* Pods-XYZRxTools.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XYZRxTools.release.xcconfig"; path = "Target Support Files/Pods-XYZRxTools/Pods-XYZRxTools.release.xcconfig"; sourceTree = "<group>"; };
 		5F04F69D6FDEAB8095EA5A68 /* Pods_XYZRxTools.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XYZRxTools.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D630D3042A9F7690002E66A7 /* MJRefresh+Rx.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "MJRefresh+Rx.swift"; sourceTree = "<group>"; };
-		D6799DEC2CF6D34A00FFA659 /* RxRealm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxRealm.swift; sourceTree = "<group>"; };
-		D6799DED2CF6D34A00FFA659 /* RealmObserver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealmObserver.swift; sourceTree = "<group>"; };
 		D67F93942907802E000B0C3C /* XYZUIImage_PHPhotoLibrary+Rx.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "XYZUIImage_PHPhotoLibrary+Rx.swift"; sourceTree = "<group>"; };
 		D67F939829078CDC000B0C3C /* UIAlert+Rx.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIAlert+Rx.swift"; sourceTree = "<group>"; };
 		D68AED6728A0EAD5003AE5DA /* XYZRxTools.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XYZRxTools.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -85,15 +81,6 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		D6799DEE2CF6D34A00FFA659 /* RxRealm */ = {
-			isa = PBXGroup;
-			children = (
-				D6799DEC2CF6D34A00FFA659 /* RxRealm.swift */,
-				D6799DED2CF6D34A00FFA659 /* RealmObserver.swift */,
-			);
-			path = RxRealm;
-			sourceTree = "<group>";
-		};
 		D68AED5E28A0EAD5003AE5DA = {
 			isa = PBXGroup;
 			children = (
@@ -130,7 +117,6 @@
 		D68AED7E28A0EF68003AE5DA /* Source */ = {
 			isa = PBXGroup;
 			children = (
-				D6799DEE2CF6D34A00FFA659 /* RxRealm */,
 				D6EE789D2CA540FA00750705 /* XYZTF.swift */,
 				D6AD57E02CA2D3DB00F1B40A /* XYZImageCompressor.swift */,
 				D68AED7F28A0EF92003AE5DA /* XYZRxExtension.swift */,
@@ -263,8 +249,6 @@
 			files = (
 				D67F93952907802E000B0C3C /* XYZUIImage_PHPhotoLibrary+Rx.swift in Sources */,
 				D6EE789E2CA540FF00750705 /* XYZTF.swift in Sources */,
-				D6799DEF2CF6D34A00FFA659 /* RealmObserver.swift in Sources */,
-				D6799DF02CF6D34A00FFA659 /* RxRealm.swift in Sources */,
 				D68AED6F28A0EAD5003AE5DA /* ViewController.swift in Sources */,
 				D6D9BA5429069D36003B3083 /* XYZ_RxFilter.swift in Sources */,
 				D6D9BA52290671A2003B3083 /* XYZUIImage_RxXYZ.swift in Sources */,
