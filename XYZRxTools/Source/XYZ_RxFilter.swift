@@ -37,16 +37,16 @@ class XYZ_RxFilter: NSObject {
     
     func trigger(){
         // 1
-        let subject = PublishSubject<String>()
-        let trigger = PublishSubject<String>()
+//        let subject = PublishSubject<String>()
+//        let trigger = PublishSubject<String>()
 
         // 2
-        subject
-          .skipUntil(trigger)
-          .subscribe(onNext: {
-            print($0)
-          })
-          .disposed(by: disposeBag)
+//        subject
+//          .skipUntil(trigger)
+//          .subscribe(onNext: {
+//            print($0)
+//          })
+//          .disposed(by: disposeBag)
         
     }
       
@@ -111,16 +111,16 @@ class XYZ_RxFilter: NSObject {
     
     func takeUntil(){
 //        example(of: "takeUntil") {
-          let disposeBag = DisposeBag()
+//          let disposeBag = DisposeBag()
 
           // 1
-          Observable.of(1, 2, 3, 4, 5)
-            // 2
-            .takeUntil(.inclusive) { $0.isMultiple(of: 4) }
-            .subscribe(onNext: {
-              print($0)
-            })
-          .disposed(by: disposeBag)
+//          Observable.of(1, 2, 3, 4, 5)
+//            // 2
+//            .takeUntil(.inclusive) { $0.isMultiple(of: 4) }
+//            .subscribe(onNext: {
+//              print($0)
+//            })
+//          .disposed(by: disposeBag)
 //        }
 //        --- Example of: takeUntil ---
 //        1

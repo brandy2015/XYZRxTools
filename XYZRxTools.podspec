@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "XYZRxTools"
-  s.version      = "1.1.2"
+  s.version      = "1.1.3"
   s.summary      = "持续升级"
   s.description  = "简洁调用一些方法"
   s.homepage     = "https://github.com/brandy2015/XYZRxTools"
@@ -9,7 +9,7 @@ Pod::Spec.new do |s|
   s.swift_version = "5.0"
   s.ios.deployment_target = "15.0"
   s.platform     = :ios, "15.0"
-  s.source       = { :git => "https://github.com/brandy2015/XYZRxTools.git", :tag => "1.1.2" }
+  s.source       = { :git => "https://github.com/brandy2015/XYZRxTools.git", :tag => "1.1.3" }
   #s.source_files = "XYZRxTools/Source/*"
   
   s.source_files = "XYZRxTools/Source/**/*.{swift}"
